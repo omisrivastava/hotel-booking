@@ -5,8 +5,8 @@ import { useClerk, useUser,UserButton } from "@clerk/clerk-react";
 const Navbar = () => {
   const navLinks = [
     { name: "Home", path: "/" },
-    { name: "hotels", path: "/rooms" },
-    { name: "experience", path: "/" },
+    { name: "Hotels", path: "/rooms" },
+    { name: "Experience", path: "/" },
     { name: "About", path: "/" },
   ];
 
