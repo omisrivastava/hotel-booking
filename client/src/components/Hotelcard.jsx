@@ -18,7 +18,7 @@ const Hotelcard = ({ room, index }) => {
           Best seller
         </p>
       )}
-      <div className="p-4 pt-5">
+      <div className="p-4 pt-5 max-w-70">
         <p className="font-playfair text-xl font-medium text-gray-800">
           {room.hotel.name}
         </p>

@@ -16,9 +16,9 @@ const Hero = () => {
         hotels and resorts.Start your Journey
       </p>
 
-      <form className="bg-white text-gray-500 rounded-lg px-6 py-4 mt-8  flex flex-col md:flex-row max-md:items-start gap-4 max-md:mx-auto">
+      <form className="bg-white lg:w-lg md:w-md w-full text-gray-500 rounded-lg px-6 py-4 mt-8  flex flex-col gap-4">
         <div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 w-full">
             <img
               src={assets.calenderIcon}
               alt="calendar icon"
@@ -30,7 +30,7 @@ const Hero = () => {
             list="destinations"
             id="destinationInput"
             type="text"
-            className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+            className=" rounded border w-full border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
             placeholder="Type here"
             required
           />
@@ -55,7 +55,7 @@ const Hero = () => {
           <input
             id="checkIn"
             type="date"
-            className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+            className="w-full rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
           />
         </div>
 
@@ -71,7 +71,7 @@ const Hero = () => {
           <input
             id="checkOut"
             type="date"
-            className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
+            className="w-full rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
           />
         </div>
 
@@ -82,7 +82,7 @@ const Hero = () => {
             max={4}
             id="guests"
             type="number"
-            className=" rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none  max-w-16"
+            className="w-full rounded border border-gray-200 px-3 py-1.5 mt-1.5 text-sm outline-none"
             placeholder="0"
           />
         </div>
